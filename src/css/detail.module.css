@@ -1,0 +1,35 @@
+.cont{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.movieData{
+    max-width: 350px;
+    margin: 20px;
+    height: auto;
+    width: auto;
+}
+
+.pic{
+    border-radius: 15px;
+}
+
+.info{
+    font-size: 1.3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back{
+    background-color: rgb(12, 12, 12);
+}
+
+.button{
+    border-radius: 5px;
+    border-color: rgb(13, 13, 246);
+    font-size: medium;
+}
+.button:hover{
+    opacity: 0.8;
+}

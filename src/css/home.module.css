@@ -1,0 +1,56 @@
+.cont{
+    display: grid;
+    grid-template-columns: repeat(space-around);
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+}
+
+.h4{
+    color: rgb(218, 208, 208);
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px white, 0 0 1em rgb(13, 13, 246), 0 0 0.2em rgb(13, 13, 246);
+}
+
+.h5{
+    color: white;
+    font-size: 20px; 
+    margin-top: 1px;   
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;  
+}
+
+.divPic {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(3px);    
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.divPic:hover{
+    opacity: 0.3;
+}
+
+.movie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pic {
+    height: 300px;
+    width: 250px;
+    border-radius: 3px;
+}
